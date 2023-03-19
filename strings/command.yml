@@ -59,9 +59,17 @@ BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
 VIDEOLIMIT_COMMAND : ["set_video_limit"]
 VIDEOMODE_COMMAND : ["videomode"]
 
-#Mantenance
+#Manitenance
 MAINTENANCE_COMMAND : ["maintenance"]
 LOGGER_COMMAND : ["logger"]
+
+#Heroku
+GETLOG_COMMAND : ["get_log", "logs", "getlog", "log"]
+GETVAR_COMMAND : ["get_var", "getvar", "showvar"]
+DELVAR_COMMAND : ["del_var", "delvar"]
+SETVAR_COMMAND : ["set_var", "setvar", "addvar"]
+USAGE_COMMAND : ["usage"]
+VARS_COMMAND : ["vars", "config"]
 
 
 #Basic Bot Commands
